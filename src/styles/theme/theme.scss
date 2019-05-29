@@ -68,22 +68,6 @@ $breakpoint: (xs: 34.286rem, // 480px
 
 // 布局
 .layout-wapper {
-  padding: 1%;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  max-width: map-get($breakpoint, xxl);
-
-  .contronl-wapper {
-    padding: 1%;
-    margin: auto;
-    display: flex;
-
-    .content-wapper {
-      padding: $size_12;
-      margin: auto;
-    }
-  }
 
   /* Extra small devices (phones, sm and down) */
   @media only screen and (max-width: map-get($breakpoint, sm)) {
