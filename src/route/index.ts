@@ -12,7 +12,7 @@ const router = new Router({
         {
             path: '/index',
             name: 'index',
-            component: () => import('@/views/home-page/HomePage'),
+            component: () => import('@/views/home-page/HomePage.vue'),
             meta: {
                 icon: '',
                 title: '',

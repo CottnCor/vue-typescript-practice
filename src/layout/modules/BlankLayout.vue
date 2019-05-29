@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <slot name="container"></slot>
+  <div class="main">
+    <slot name="main"></slot>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default BlankLayout;
 </script>
 
 <style lang='scss' scoped>
-.container {
+.main {
     width: 100%;
     min-height: 100vh;
     display: flex;
